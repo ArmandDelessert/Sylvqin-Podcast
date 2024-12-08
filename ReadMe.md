@@ -157,7 +157,7 @@ Publication : Mardi 19 novembre 2024 11:15:16 UTC+1
 
 [Flux RSS](Podcast.xml)
 
-[![Validate this RSS feed](../valid-rss-rogers.png)](https://www.rssboard.org/rss-validator/check.cgi?url=https%3A%2F%2Farmanddelessert.github.io%2FRssFeed%2FSylvqin-Podcast%2FPodcast.xml)
+[![Validate this RSS feed](ValidRss.png)](https://www.rssboard.org/rss-validator/check.cgi?url=https%3A%2F%2Farmanddelessert.github.io%2FRssFeed%2FSylvqin-Podcast%2FPodcast.xml)
 
 ## Liens
 
