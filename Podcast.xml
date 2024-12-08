@@ -3,14 +3,14 @@
   <channel>
     <title>Le podcast des soutiens de Sylvqin</title>
     <description>Le podcast culte, réservé aux soutiens de la chaîne YouTube Sylvqin.</description>
-    <link>https://github.com/ArmandDelessert/ArmandDelessert.github.io/blob/master/RssFeed/Sylvquin/Podcast.md</link>
+    <link>https://github.com/ArmandDelessert/ArmandDelessert.github.io/blob/master/RssFeed/Sylvqin-Podcast/Podcast.md</link>
     <language>fr</language>
     <webMaster>bonsoir@sylvq.in (Sylvain)</webMaster>
-    <atom:link href="https://armanddelessert.github.io/RssFeed/Sylvquin/Podcast.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://armanddelessert.github.io/RssFeed/Sylvqin-Podcast/Podcast.xml" rel="self" type="application/rss+xml" />
     <image>
       <title>Le podcast des soutiens de Sylvqin</title>
-      <url>https://ArmandDelessert.github.io/RssFeed/Sylvquin/Covers/Cover_1b6786d8-05e3-41d1-b64b-15d15cd1b0c6.jpeg</url>
-      <link>https://github.com/ArmandDelessert/ArmandDelessert.github.io/blob/master/RssFeed/Sylvquin/Podcast.md</link>
+      <url>https://ArmandDelessert.github.io/RssFeed/Sylvqin-Podcast/Covers/Cover_1b6786d8-05e3-41d1-b64b-15d15cd1b0c6.jpeg</url>
+      <link>https://github.com/ArmandDelessert/ArmandDelessert.github.io/blob/master/RssFeed/Sylvqin-Podcast/Podcast.md</link>
     </image>
     <item>
       <title>Épisode 1 - Prizee et CPF</title>
@@ -182,7 +182,7 @@
       </description>
       <link>https://www.youtube.com/watch?v=a5cDwzh55CY</link>
       <enclosure
-        url="https://raw.githubusercontent.com/ArmandDelessert/ArmandDelessert.github.io/master/RssFeed/Sylvquin/Files/%C3%89pisode_5.mp3"
+        url="https://raw.githubusercontent.com/ArmandDelessert/ArmandDelessert.github.io/master/RssFeed/Sylvqin-Podcast/Files/%C3%89pisode_5.mp3"
         length="41690475"
         type="audio/mpeg"/>
       <guid isPermaLink="false">a5cDwzh55CY</guid>
@@ -462,7 +462,7 @@
       </description>
       <link>https://www.youtube.com/watch?v=rGnK9A8veL4</link>
       <enclosure
-        url="https://raw.githubusercontent.com/ArmandDelessert/ArmandDelessert.github.io/master/RssFeed/Sylvquin/Files/%C3%89pisode_13.mp3"
+        url="https://raw.githubusercontent.com/ArmandDelessert/ArmandDelessert.github.io/master/RssFeed/Sylvqin-Podcast/Files/%C3%89pisode_13.mp3"
         length="16914065"
         type="audio/mpeg"/>
       <guid isPermaLink="false">rGnK9A8veL4</guid>
@@ -497,7 +497,7 @@
       </description>
       <link>https://www.youtube.com/watch?v=nHIlIGXdmz0</link>
       <enclosure
-        url="https://raw.githubusercontent.com/ArmandDelessert/ArmandDelessert.github.io/master/RssFeed/Sylvquin/Files/%C3%89pisode_14.mp3"
+        url="https://raw.githubusercontent.com/ArmandDelessert/ArmandDelessert.github.io/master/RssFeed/Sylvqin-Podcast/Files/%C3%89pisode_14.mp3"
         length="14469020"
         type="audio/mpeg"/>
       <guid isPermaLink="false">nHIlIGXdmz0</guid>
@@ -567,7 +567,7 @@
       </description>
       <link>https://www.youtube.com/watch?v=37iOH-bQnpw</link>
       <enclosure
-        url="https://raw.githubusercontent.com/ArmandDelessert/ArmandDelessert.github.io/master/RssFeed/Sylvquin/Files/%C3%89pisode_16.mp3"
+        url="https://raw.githubusercontent.com/ArmandDelessert/ArmandDelessert.github.io/master/RssFeed/Sylvqin-Podcast/Files/%C3%89pisode_16.mp3"
         length="14397334"
         type="audio/mpeg"/>
       <guid isPermaLink="false">37iOH-bQnpw</guid>
