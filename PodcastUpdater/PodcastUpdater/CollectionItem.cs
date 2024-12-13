@@ -1,6 +1,6 @@
 namespace PodcastUpdater;
 
-public class CollectionItem(int number, string name) : INamedItem, INumberedItem
+public class CollectionItem(int number, string name)
 {
     public int Number { get; set; } = number;
 
