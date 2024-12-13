@@ -84,6 +84,7 @@ Publication : Vendredi 22 septembre 2023 16:56:56 UTC+2
 
 Publication : Mardi 19 décembre 2023 16:03:51 UTC+1
 
+- [Patreon](https://www.patreon.com/posts/podcast-9-ho-ho-95846722)
 - [Tipeee](https://fr.tipeee.com/sylvqin/news/182967)
 - [YouTube](https://www.youtube.com/watch?v=vFOoKbhGX80)
 - [Google Drive](https://drive.google.com/file/d/1ZOSQR4hp63bbqTj6lodzaWmN6QNm6eIU/view) (format MP3)
@@ -93,6 +94,7 @@ Publication : Mardi 19 décembre 2023 16:03:51 UTC+1
 
 Publication : Jeudi 1 février 2024 14:34:28 UTC+1
 
+- [Patreon](https://www.patreon.com/posts/podcast-10-en-et-97640706)
 - [Tipeee](https://fr.tipeee.com/sylvqin/news/187435)
 - [YouTube](https://www.youtube.com/watch?v=6pGrB0WfqFk)
 - [Google Drive](https://drive.google.com/file/d/1bT0LHtE1FGwMZeW9mwX9ciUdfp4lVMzw/view) (format MP3)
@@ -102,6 +104,7 @@ Publication : Jeudi 1 février 2024 14:34:28 UTC+1
 
 Publication : Lundi 18 mars 2024 11:31:30 UTC+1
 
+- [Patreon](https://www.patreon.com/posts/podcast-11-le-100586657)
 - [Tipeee](https://fr.tipeee.com/sylvqin/news/191951)
 - [YouTube](https://www.youtube.com/watch?v=VUa9mCbcWBk)
 - [Google Drive](https://drive.google.com/file/d/1hiEStiirukKMCpnzowEKd308MOu2d71C/view) (format MP3)
@@ -111,6 +114,7 @@ Publication : Lundi 18 mars 2024 11:31:30 UTC+1
 
 Publication : Vendredi 12 avril 2024 16:52:16 UTC+2
 
+- [Patreon](https://www.patreon.com/posts/podcast-12-102213617)
 - [Tipeee](https://fr.tipeee.com/sylvqin/news/194499)
 - [YouTube](https://www.youtube.com/watch?v=GtbQ4QEPoNE)
 - [Google Drive](https://drive.google.com/file/d/1dZA2H5l77jl-apZ2oE5Bor474yo6RCso/view) (format MP3)
@@ -120,6 +124,7 @@ Publication : Vendredi 12 avril 2024 16:52:16 UTC+2
 
 Publication : Vendredi 10 mai 2024 10:45:30 UTC+2
 
+- [Patreon](https://www.patreon.com/posts/podcast-13-porte-103986148)
 - [Tipeee](https://fr.tipeee.com/sylvqin/news/197467)
 - [YouTube](https://www.youtube.com/watch?v=rGnK9A8veL4)
 - [GitHub](Files/Épisode_13.mp3) (format MP3)
@@ -128,6 +133,7 @@ Publication : Vendredi 10 mai 2024 10:45:30 UTC+2
 
 Publication : Mercredi 12 juin 2024 13:12:29 UTC+2
 
+- [Patreon](https://www.patreon.com/posts/podcast-14-de-106063560)
 - [Tipeee](https://fr.tipeee.com/sylvqin/news/200601)
 - [YouTube](https://www.youtube.com/watch?v=nHIlIGXdmz0)
 - [GitHub](Files/Épisode_14.mp3) (format MP3)
@@ -136,6 +142,7 @@ Publication : Mercredi 12 juin 2024 13:12:29 UTC+2
 
 Publication : Mercredi 11 septembre 2024 15:18:53 UTC+2
 
+- [Patreon](https://www.patreon.com/posts/podcast-15-ya-111854575)
 - [Tipeee](https://fr.tipeee.com/sylvqin/news/207639)
 - [YouTube](https://www.youtube.com/watch?v=JpsK-Le86qk)
 - [Google Drive](https://drive.google.com/file/d/1VzgnRVMsbbzjeBNEIhLM8Pvojl2rxlPB/view) (format MP3)
@@ -145,6 +152,7 @@ Publication : Mercredi 11 septembre 2024 15:18:53 UTC+2
 
 Publication : Mardi 19 novembre 2024 11:15:16 UTC+1
 
+- [Patreon](https://www.patreon.com/posts/podcast-16-un-116296476)
 - [Tipeee](https://fr.tipeee.com/sylvqin/news/213209)
 - [YouTube](https://www.youtube.com/watch?v=37iOH-bQnpw)
 - [GitHub](Files/Épisode_16.mp3) (format MP3)
