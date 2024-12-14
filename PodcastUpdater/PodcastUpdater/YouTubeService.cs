@@ -1,19 +1,78 @@
-﻿namespace PodcastUpdater;
+﻿using System.Diagnostics;
+using Newtonsoft.Json;
 
-public class YouTubeService
+namespace PodcastUpdater;
+
+internal class YoutubeService
 {
-    public VideoMetadata FetchVideoMetadata(string videoUrl)
+    private const string Command = "yt-dlp";
+    private const string OptionFlatPlaylist = "--flat-playlist";
+    private const string OptionDumpJson = "--dump-json";
+
+    private readonly Uri youtubePlaylistBaseUrl = new("https://www.youtube.com/playlist?list=");
+
+    public YoutubeService(string youtubePlaylistId)
     {
-        // Récupère les métadonnées de la vidéo
+        if (string.IsNullOrWhiteSpace(youtubePlaylistId) && youtubePlaylistId.Length != 34)
+            throw new ArgumentException($"'{nameof(youtubePlaylistId)}' cannot be null or whitespace.", nameof(youtubePlaylistId));
+
+        _youtubePlaylistUrl = new(youtubePlaylistBaseUrl, youtubePlaylistId);
     }
 
-    public DateTime GetPublicationDate(string videoId)
+    public Uri YoutubePlaylistUrl => _youtubePlaylistUrl ?? throw new InvalidOperationException("YouTube playlist ID not set.");
+
+    private readonly Uri? _youtubePlaylistUrl;
+
+    public List<YoutubeVideo> GetEpisodesFromPlaylist()
     {
-        // Obtient la date de publication de la vidéo
+        string playlistJson = GetPlaylistWithYtdlp();
+        List<YoutubeVideo> episodes = [];
+
+        using (StringReader reader = new(playlistJson))
+        {
+            string? line;
+            while ((line = reader.ReadLine()) is not null)
+            {
+                var video = JsonConvert.DeserializeObject<YoutubeVideo>(line);
+                if (video is not null)
+                {
+                    episodes.Add(video);
+                }
+            }
+        }
+
+        return episodes;
     }
 
-    public void AddVideoToPlaylist(string playlistId, string videoId)
+    private string GetPlaylistWithYtdlp()
     {
-        // Ajoute la vidéo à la playlist spécifiée
+        ProcessStartInfo processStartInfo = new()
+        {
+            FileName = Command,
+            Arguments = $"{OptionFlatPlaylist} {OptionDumpJson} {YoutubePlaylistUrl}",
+            RedirectStandardOutput = true,
+            RedirectStandardError = true,
+            UseShellExecute = false,
+            CreateNoWindow = true
+        };
+
+        using Process process = new()
+        {
+            StartInfo = processStartInfo
+        };
+
+        process.Start();
+
+        string output = process.StandardOutput.ReadToEnd();
+        string error = process.StandardError.ReadToEnd();
+
+        process.WaitForExit();
+
+        if (process.ExitCode != 0)
+        {
+            throw new InvalidOperationException($"yt-dlp command failed with error: {error}");
+        }
+
+        return output;
     }
 }

@@ -1,8 +1,8 @@
 ﻿namespace PodcastUpdater;
 
-public class AudioDownloadService
+internal class AudioDownloadService
 {
-    public string DownloadAudioFromYouTube(string videoUrl)
+    public string DownloadAudioFromYoutube(string videoUrl)
     {
         // Télécharge l'audio de la vidéo avec yt-dlp
     }

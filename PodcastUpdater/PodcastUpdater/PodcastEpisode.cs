@@ -2,15 +2,11 @@
 
 namespace PodcastUpdater;
 
-public class PodcastEpisode(int number, string name)
+public class PodcastEpisode
 {
-    private const string youtubeBaseUrl = "https://www.youtube.com/watch?v=";
-
-    private string? _youtubeVideoID;
-
-    private Uri? _patreonPostUrl;
-
-    private Uri? _tipeeePostUrl;
+    private readonly Uri youtubeVideoBaseUrl = new("https://www.youtube.com/watch?v=");
+    private readonly Uri patreonBaseUrl = new("https://www.patreon.com/posts/");
+    private readonly Uri tipeeeBaseUrl = new("https://fr.tipeee.com/sylvqin/news/");
 
     private Uri? _githubFileUrl;
 
@@ -18,64 +14,73 @@ public class PodcastEpisode(int number, string name)
 
     private FileInfo? _localOggFile;
 
-    public int Number { get; set; } = number;
-
-    public string Name { get; set; } = name;
-
-    public string Description { get; set; } = "";
-
-    public DateTime PublicationDate{ get; set; }
-
-    public string GetYoutubeVideoUrl()
+    public PodcastEpisode(int number, string name, string description, DateTime publicationDate)
     {
-        if (_youtubeVideoID is null)
-            throw new InvalidOperationException("YouTube video ID not defined.");
+        if (string.IsNullOrWhiteSpace(name))
+            throw new ArgumentException($"'{nameof(name)}' cannot be null or whitespace.", nameof(name));
 
-        return $"{youtubeBaseUrl}{_youtubeVideoID}";
+        if (string.IsNullOrWhiteSpace(description))
+            throw new ArgumentException($"'{nameof(description)}' cannot be null or whitespace.", nameof(description));
+
+        if (publicationDate == DateTime.MinValue)
+            throw new ArgumentException($"The value of '{nameof(publicationDate)}' is not valid.", nameof(publicationDate));
+
+        Number = number;
+        Name = name;
+        Description = description;
+        PublicationDate = publicationDate;
     }
 
-    public void SetYoutubeVideoID(string youtubeVideoID)
-    {
-        if (string.IsNullOrWhiteSpace(youtubeVideoID) || !Regex.IsMatch(youtubeVideoID, @"^[A-Za-z0-9_-]{11}$"))
-            throw new ArgumentNullException(nameof(youtubeVideoID), $"The specified YouTube video ID is not valid: {youtubeVideoID}");
+    public int Number { get; }
 
-        _youtubeVideoID = youtubeVideoID;
+    public string Name { get; }
+
+    public string Description { get; }
+
+    public DateTime PublicationDate{ get; }
+
+    public Uri YoutubeVideoUrl => _youtubeVideoUrl ?? throw new InvalidOperationException("YouTube video ID not set.");
+
+    private Uri? _youtubeVideoUrl;
+
+    public Uri PatreonPostUrl => _patreonPostUrl ?? throw new InvalidOperationException("Patreon post ID not set.");
+
+    private Uri? _patreonPostUrl;
+
+    public Uri TipeeePostUrl => _tipeeePostUrl ?? throw new InvalidOperationException("Tipeee post ID not set.");
+
+    private Uri? _tipeeePostUrl;
+
+    public void SetYoutubeVideoId(string youtubeVideoId)
+    {
+        if (string.IsNullOrWhiteSpace(youtubeVideoId) || !Regex.IsMatch(youtubeVideoId, @"^[A-Za-z0-9_-]{11}$"))
+            throw new ArgumentNullException(nameof(youtubeVideoId), $"The specified YouTube video ID is not valid: {youtubeVideoId}");
+
+        _youtubeVideoUrl = new(youtubeVideoBaseUrl, youtubeVideoId);
     }
 
-    public string GetPatreonPostUrl()
+    public void SetPatreonPostId(string patreonPostId)
     {
-        return _patreonPostUrl?.ToString()
-            ?? throw new InvalidOperationException("Patreon post URL has not been set.");
+        _patreonPostUrl = new(patreonBaseUrl, patreonPostId);
     }
 
-    public void SetPatreonPostUrl(string patreonPostUrl)
+    public void SetTipeeePostId(string tipeeePostId)
     {
-        throw new NotImplementedException();
+        _tipeeePostUrl = new(tipeeeBaseUrl, tipeeePostId);
     }
 
-    public string GetTipeeePostUrl()
-    {
-        return _tipeeePostUrl?.ToString()
-            ?? throw new InvalidOperationException("Tipeee post URL has not been set.");
-    }
-
-    public void SetTipeeePostUrl(string tipeeePostUrl)
-    {
-        throw new NotImplementedException();
-    }
-
-    public string GetGitHubFileUrl()
+    public string GetGithubFileUrl()
     {
         return _githubFileUrl?.ToString()
             ?? throw new InvalidOperationException("GitHub file URL has not been set.");
     }
 
-    public void SetGitHubFileUrl(string gitHubFileUrl)
+    public void SetGithubFileUrl(string githubFileUrl)
     {
-        if (string.IsNullOrWhiteSpace(gitHubFileUrl))
-            throw new ArgumentNullException(nameof(gitHubFileUrl), "GitHub file URL cannot be null or empty.");
+        if (string.IsNullOrWhiteSpace(githubFileUrl))
+            throw new ArgumentNullException(nameof(githubFileUrl), "GitHub file URL cannot be null or empty.");
 
-        _githubFileUrl = new Uri(gitHubFileUrl);
+        _githubFileUrl = new Uri(githubFileUrl);
     }
 
     public string GetLocalMp3FilePath()
