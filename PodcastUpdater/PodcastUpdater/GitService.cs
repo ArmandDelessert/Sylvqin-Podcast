@@ -1,7 +1,12 @@
 ﻿namespace PodcastUpdater;
 
-public class GitHubService
+internal class GitService
 {
+    public void PublishChanges()
+    {
+
+    }
+
     public void UpdateReadme(PodcastEpisode episode)
     {
         // Met à jour le fichier README.md avec les informations de l'épisode

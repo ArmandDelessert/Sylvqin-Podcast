@@ -2,7 +2,7 @@
 
 namespace PodcastUpdater;
 
-public class ReadmeManager
+internal class ReadmeManager
 {
     private const string EpisodesSection = "## Épisodes";
 

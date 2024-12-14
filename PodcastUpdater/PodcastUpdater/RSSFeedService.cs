@@ -1,13 +1,13 @@
 ﻿namespace PodcastUpdater;
 
-public class RSSFeedService
+internal class RssFeedService
 {
-    public void UpdateRSSFeed(PodcastEpisode episode)
+    public void UpdateRssFeed(PodcastEpisode episode)
     {
         // Met à jour le fichier XML du flux RSS
     }
 
-    public string GenerateRSSXml(List<PodcastEpisode> episodes)
+    public string GenerateRssXml(List<PodcastEpisode> episodes)
     {
         // Génère le contenu XML complet du flux RSS
     }
