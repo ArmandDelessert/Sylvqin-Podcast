@@ -1,0 +1,29 @@
+{
+    "title": "Le podcast des soutiens de Sylvqin",
+    "cover": "Covers/Cover_1b6786d8-05e3-41d1-b64b-15d15cd1b0c6.jpeg",
+    "description": "Le podcast culte, réservé aux soutiens de la chaîne YouTube Sylvqin.",
+    "episodes": [
+        {
+            "episode_number": 1,
+            "title": "Prizee et CPF",
+            "publication_date": "2022-08-27T14:55:45+02:00",
+            "links": {
+                "Tipeee": "https://fr.tipeee.com/sylvqin/news/148727",
+                "YouTube": "https://www.youtube.com/watch?v=j5BcqfIpnTM",
+                "Google Drive": "https://drive.google.com/file/d/11MgJIPaUJDncHX9ZMIXiVeSAjqcud6Ux/view",
+                "GitHub": "https://raw.githubusercontent.com/ArmandDelessert/ArmandDelessert.github.io/master/RssFeed/Sylvquin/Files/%C3%89pisode_1.mp3"
+            }
+        },
+        {
+            "episode_number": 2,
+            "title": "Souris, Fuchsia et Sponsors",
+            "publication_date": "2022-10-05T15:01:15+02:00",
+            "links": {
+                "Tipeee": "https://fr.tipeee.com/sylvqin/news/150775",
+                "YouTube": "https://www.youtube.com/watch?v=_YPl3frkB_8",
+                "Google Drive": "https://drive.google.com/file/d/1DbpzaXYlJAJZSLRet6flh23E-y-ZlJxI/view",
+                "GitHub": "https://raw.githubusercontent.com/ArmandDelessert/ArmandDelessert.github.io/master/RssFeed/Sylvquin/Files/%C3%89pisode_2.mp3"
+            }
+        }
+    ]
+}
