@@ -149,6 +149,14 @@ Publication : Mardi 19 novembre 2024 11:15:16 UTC+1
 - [YouTube](https://www.youtube.com/watch?v=37iOH-bQnpw)
 - [GitHub](Files/Épisode_16.mp3) (format MP3)
 
+### Épisode 17 - Je lègue la chaîne à Jules ??
+
+Publication : Mercredi 19 mars 2025
+
+- [Tipeee](https://fr.tipeee.com/sylvqin/news/222691)
+- [YouTube](https://www.youtube.com/watch?v=otjE_zxy_OY)
+- [GitHub](Files/Épisode_17.mp3) (format MP3)
+
 ## Playlist YouTube
 
 [Playlist YouTube](https://www.youtube.com/playlist?list=PLU0vpugYYFUrtBnjxPAZFRKKG89RqgKUm)
