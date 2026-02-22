@@ -165,6 +165,23 @@ Publication : Mercredi 19 mars 2025
 - [YouTube](https://www.youtube.com/watch?v=otjE_zxy_OY)
 - [GitHub](Files/Épisode_17.mp3) (format MP3)
 
+### Épisode 18 - Je sais plus ce qu'on a raconté dedans (mais hyper bien)
+
+Publication : Lundi 2 juin 2025
+
+- [Tipeee](https://fr.tipeee.com/sylvqin/news/229651)
+- [YouTube](https://www.youtube.com/watch?v=_K7IJ1Hq5lU)
+- [Google Drive](https://drive.google.com/file/d/1Xbil14A2h6zYXUbeIbLRmdd9zXwNSnN_/view) (format MP3)
+- [GitHub](Files/Épisode_18.mp3) (format MP3)
+
+### Épisode 19 - Summer Paradise Edition
+
+Publication : Mercredi 6 août 2025
+
+- [Tipeee](https://fr.tipeee.com/sylvqin/news/234381)
+- [YouTube](https://www.youtube.com/watch?v=Z5nWhw-17KU)
+- [GitHub](Files/Épisode_19.mp3) (format MP3)
+
 ## Playlist YouTube
 
 [Playlist YouTube](https://www.youtube.com/playlist?list=PLU0vpugYYFUrtBnjxPAZFRKKG89RqgKUm)
