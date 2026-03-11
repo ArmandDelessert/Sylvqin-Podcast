@@ -182,6 +182,13 @@ Publication : Mercredi 6 août 2025
 - [YouTube](https://www.youtube.com/watch?v=Z5nWhw-17KU)
 - [GitHub](Files/Épisode_19.mp3) (format MP3)
 
+### Épisode 20 - Toujours à l'heure !! (feat Raphaël Quenard)
+
+- [Tipeee](https://fr.tipeee.com/sylvqin/news/234381)
+- [YouTube](https://www.youtube.com/watch?v=hv0X92Fl-04)
+- [Google Drive](https://drive.google.com/file/d/1yW0n4CoS8aMTjot_hMsLx9ZkemygfDCP/view) (format MP3)
+- [GitHub](Files/Épisode_20.mp3) (format MP3)
+
 ## Playlist YouTube
 
 [Playlist YouTube](https://www.youtube.com/playlist?list=PLU0vpugYYFUrtBnjxPAZFRKKG89RqgKUm)
